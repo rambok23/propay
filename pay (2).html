@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="EN">
+
+    <head>
+
+        <title> ProPay.com – Simpler. Faster. Friendlier </title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- TAB LOGO LINK-->
+        <link rel="shortcut icon" href="image/logo.ico" type="image/png">
+
+        <!-- CSS Link -->
+        <link rel="stylesheet" type="text/css" href="./css/temp.css">
+
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+        <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+
+        <!-- JAVASCRIPT LINK -->
+        <script src="javascript.js"></script>
+
+
+                <!-- Latest compiled and minified CSS -->
+        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+                <!-- jQuery library -->
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+                <!-- Popper JS -->
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="js/jquery.min.js"></script>
+        <script src="js/easyResponsiveTabs.js"></script>
+
+                <!-- Latest compiled JavaScript -->
+            
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        
+                <!-- Fonts -->
+
+        <link href="css/font-awesome.css" rel="stylesheet" type="text/css" media="all" />
+
+    </head>
+
+<body>
+
+    <div class="too">
+
+        <div class="topbar">.</div>
+            <a href="recharge.php"> <img src="image/logo.png" alt="ProPay"> </a>
+            <div class="linkwall">
+                <ul>
+                        <li data-toggle="modal" data-target="#myModal"> <a class="alin" href="#" title="Login"> <i class="fas fa-globe"></i> Login </a></li>
+                        <li data-toggle="modal" data-target="#myModal1"> <a class="alin" href="#" title="Signup"> <i class="fas fa-user-graduate"></i> Signup </a></li>
+                </ul>
+            <!-- SIGN UP MODAL -->
+                    <div class="modal fade" id="myModal1" role="dialog">
+                        <div class="modal-dialog">
+                        
+                        <div class="modal-content">
+                
+                            <div class="modal-header">
+                                <h4 class="modal-title"> SIGN-UP </h4>
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            </div>
+
+                            <div class="modal-body">
+                                <div class="content login-box">
+                                    <div class="login-main">
+                                        <div class="wrap">
+                                            <div class="login-left">
+                                                <h3> CREATE AN ACCOUNT</h3>
+
+                                                <form id="signupform" action="sign.php" method="post">
+
+                                                <div>
+                                                    <span>Name<label>*</label></span>
+                                                    <input type="text" name="name">
+                                                </div>
+
+                                                <div>
+                                                    <span>Email Address<label>*</label></span>
+                                                    <input type="Email" name="email">
+                                                </div>
+                
+                                                <div>
+                                                    <span>Password<label>*</label></span>
+                                                    <input type="Password" name="password"> 
+                                                </div>
+
+                                                <div class="clearfix"> </div>
+
+                                                    <input type="submit" value="Signup" name="submit1" id="submit1">
+                                                </div>
+
+                                                </form>
+
+                                                <div>
+                                                    <div class="clearfix"> </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        </div> <!-- Signup -->
+        <!-- LOGIN MODAL -->
+                
+                    <div class="modal fade" id="myModal" role="dialog">
+                        <div class="modal-dialog">
+                        
+                        <div class="modal-content">
+                
+                            <div class="modal-header">
+                                <h4 class="modal-title"> LOG IN </h4>
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            </div>
+
+                            <div class="modal-body">
+                                <div class="content login-box">
+                                    <div class="login-main">
+                                        <div class="wrap">
+                                            <div class="login-left">
+                                                <h3> REGISTERED CUSTOMERS</h3>
+                                                <p>If you have an account with us, please log in.</p>
+
+                                                <form id="myform" action="info.php" method="post">
+
+                                                <div>
+                                                    <span>Email Address<label>*</label></span>
+                                                    <input type="Email" name="mail" class="form-control">
+                                                </div>
+                
+                                                <div>
+                                                    <span >Password<label>*</label></span>
+                                                    <input type="Password" name="pass" class="form-control"> 
+                                                </div>
+
+                                                <div class="clear"> </div>
+                                                    <a href="#">Forgot Your Password?</a>
+                                                    <input id="submit" name="submit" type="submit" value="Login">
+                                                </div>
+
+                                                </form>
+
+                                                <div>
+                                                    <div class="clear"> </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>  <!-- LOGIN -->
+
+                </ul>
+
+            </div>
+        </div>
+
+            <div class="top_search">
+                <input type="text" placeholder="Search for a Product, Brand Or Category">
+                <button> <i class='fas fa-search'></i> </button>
+                </div>
+        
+        <div class="clearfix"></div>
+   
+        <div class="topbar">.</div>
+    </div>
+
+    <div class="clearfix"></div>
+
+   <div class="contain">
+        <div class="left-sidebarr">
+            <section>
+                    <h1> Payment </h1>
+            </section>
+        </div>
+
+        <div class="right-sidebarr">
+
+        <div id="parentHorizontalTab">
+        <ul class="resp-tabs-list hor_1">
+                <li>CREDIT/DEBIT CARD</li>
+                <li>INTERNET BANKING</li>
+                <li>PAYPAL</li>
+        </ul>
+
+                <div class="resp-tabs-container hor_1">
+                    <div class="tab1">
+                        
+                        <img src="image/logos.png">
+                        <div class="clearfix"> </div>
+                            
+                            <form method="post" action="save.php" id="credit">
+                                <br>
+                                <input name="cnum" class="text" type="text" value="Enter Your Card Number" maxlength="16" minlength="16" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Enter Your Card Number';}" required=""> <br> 
+                                
+                                <input name="name" class="text" type="text" value="Your Name On Card" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Your Name On Card';}" required=""><br>
+                                    <p>Expiry:<br>
+                                    
+                                    <select name="month" class="month" required="">
+                                    
+                                        <option value="">Month</option>
+                                        <option value="01">Jan</option>
+                                        <option value="02">Feb</option>
+                                        <option value="03">Mar</option>
+                                        <option value="04">Apr</option>
+                                        <option value="05">May</option>
+                                        <option value="06">Jun</option>
+                                        <option value="07">Jul</option>
+                                        <option value="08">Aug</option>
+                                        <option value="09">Sep</option>
+                                        <option value="10">Oct</option>
+                                        <option value="11">Nov</option>
+                                        <option value="12">Dec</option>
+                                    
+                                    </select>
+                                
+                                    <select name="year" class="year" required="">
+
+                                        <option value="">Year</option>
+                                        <option value="2019">2019</option>
+                                        <option value="2020">2020</option>
+                                        <option value="2021">2021</option>
+                                        <option value="2022">2022</option>
+                                        <option value="2023">2023</option>
+                                        <option value="2024">2024</option>
+                                        <option value="2025">2025</option>
+                                        <option value="2026">2026</option>
+                                        <option value="2027">2027</option>
+                                        <option value="2028">2028</option>
+                                        <option value="2029">2029</option>
+                                        <option value="2030">2030</option>
+                                        <option value="2031">2031</option>
+                                        <option value="2032">2032</option>
+                                        <option value="2033">2033</option>
+
+                                    </select>
+                        
+                                    <li>
+                                        <input name="cvv" type="text" class="cvv" value="CVV" maxlength="3" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'CVV';}" required="">
+                                    </li></p>
+                                    
+                                    <div class="single-check">
+                                            <input type="checkbox" id="brand1" value="">
+                                            <label for="brand1"><span></span>Save this card for faster checkout.</label>
+                                    </div>
+                            
+                                    <input type="submit" name="sub" class="go-to-pay" value="Make Payment">
+                            </form>
+                    </div>
+
+                    <div class="tab2">
+                        <img src="image/sbi.png" style="width: 5%;">
+                        <img src="image/axis.png" style="width: 5%;">
+                        <img src="image/hdfc.png" style="width: 5%;">
+                        <img src="image/icici.jpg" style="width: 5%;">
+                        <img src="image/bob.png" style="width: 5%;">
+                        <div class="clearfix"></div> <br>
+                        
+                        <p>Select your Bank :
+                            <br>
+                            <select class="bank" required="">
+                                <option value="">--------- Choose A Bank ----------</option>
+                                <option value="AXX-NA">AXIS Bank</option>
+                                <option value="BBC-NA">Bank of Baroda Corporate NetBanking</option>
+                                <option value="BBR-NA">Bank of Baroda Retail NetBanking</option>
+                                <option value="CBI-NA">Central Bank of India</option>
+                                <option value="CUB-NA">City Union Bank NetBanking</option>
+                                <option value="FBK-NA">Federal Bank NetBanking</option>
+                                <option value="IDS-NA">Induslnd Bank NetBanking</option>
+                                <option value="IOB-NA">Indian Overseas Bank</option>
+                                <option value="OBC-NA">Oriental Bank of Commerce NetBanking</option>
+                                <option value="CPN-NA">PNB Corporate NetBanking</option>
+                                <option value="PNB-NA">PNB NetBanking</option>
+                                <option value="SBI-NA">State Bank Of India </option>
+                                <option value="UBI-NA">Union Bank NetBanking</option>
+                                <option value="ADB-NA">Andhra Bank</option>
+                                <option value="ALB-NA">Allahabad Bank NetBanking</option>
+                                <option value="BBK-NA">Bank of Bahrain and Kuwait NetBanking</option>
+                                <option value="BOI-NA">Bank of India NetBanking</option>
+                                <option value="BOM-NA">Bank of Maharashtra NetBanking</option>
+                                <option value="CSB-NA">Catholic Syrian Bank NetBanking</option>
+                                <option value="CRP-NA">Corporation Bank</option>
+                                <option value="DBK-NA">Deutsche Bank NetBanking</option>
+                                <option value="DCB-NA">Development Credit Bank</option>
+                                <option value="DC2-NA">Development Credit Bank - Corporate</option>
+                                <option value="DLB-NA">Dhanlaxmi Bank NetBanking</option>
+                                <option value="ING-NA">ING Vysya Bank (now Kotak)</option>
+                                <option value="JKB-NA">Jammu and Kashmir NetBanking</option>
+                                <option value="JSB-NA">Janata Sahakari Bank Limited</option>
+                                <option value="KBL-NA">Karnataka Bank NetBanking</option>
+                                <option value="KVB-NA">Karur Vysya Bank NetBanking</option>
+                                <option value="LVR-NA">Lakshmi Vilas Bank NetBanking</option>
+                                <option value="RSD-DIRECT">Rajasthan State Co-operative Bank-Debit Card</option>
+                                <option value="RBS-NA">RBS (The Royal Bank of Scotland)</option>
+                                <option value="SWB-NA">Saraswat Bank NetBanking</option>
+                                <option value="SBJ-NA">SB Bikaner and Jaipur NetBanking</option>
+                                <option value="SBH-NA">SB Hyderabad NetBanking</option>
+                                <option value="SBM-NA">SB Mysore NetBanking</option>
+                                <option value="SBT-NA">SB Travancore NetBanking</option>
+                                <option value="SVC-NA">Shamrao Vitthal Co-operative Bank</option>
+                                <option value="SIB-NA">South Indian Bank NetBanking</option>
+                                <option value="SBP-NA">State Bank of Patiala NetBanking</option>
+                                <option value="SYD-NA">Syndicate Bank NetBanking</option>
+                                <option value="TNC-NA">Tamil Nadu State Co-operative Bank NetBanking</option>
+                                <option value="UCO-NA">UCO Bank NetBanking</option>
+                                <option value="UNI-NA">United Bank of India NetBanking</option>
+                                <option value="VJB-NA">Vijaya Bank NetBanking</option>
+                            </select>
+                        </p>
+                  
+                        <form>
+                                <h3> E-MAIL</h3>
+                                
+                                <input type="email" class="text" value="@icloud.com" onfocus="this.value = '';" onblur="if (this.value=='') {this.value = '@icloud.com';}" required="">
+
+                                <h3>PASSWORD</h3>
+                                <input type="password" class="password" required=""><br>
+                                <input type="submit" value="SUBMIT"><br>
+
+                        </form>
+                    </div>
+                    
+                    <div class="tab3">
+                        
+                        <img class="pp-img" src="image/paypal.png" alt="PayPal.com" title="PayPal">
+
+                        <div class="clearfix"></div>
+
+                        <p>Important: You will be redirected to PayPal's website to securely complete your payment.</p> <a href="https://paypal.com" class="btn btn-primary">Checkout via Paypal</a>   
+                        
+                        <div class="clearfix"></div>
+                       
+                        <h3>LOGIN INTO YOUR ACCOUNT TO PAY</h3>
+                        <br>
+                        <form>
+                                <h4> E-MAIL</h4>
+                                <input type="email" class="name"  required="">
+                                <h4>PASSWORD</h4>
+                                <input type="password" class="password"  required=""><br>
+                                <input type="submit" value="LOGIN"><br>
+                        </form>
+                   
+                    </div>
+                </div>
+    </div>
+</div>
+</div>
+</div>
+
+
+<script type="text/javascript">
+    
+
+ /*Plug-in Initialisation */
+
+    $(document).ready(function() {
+    //Horizontal Tab
+        $('#parentHorizontalTab').easyResponsiveTabs({
+            type: 'default', //Types: default, vertical, accordion
+            width: 'auto', //auto or any width like 600px
+            tabidentify: 'hor_1', // The tab groups identifier
+        });
+    });
+
+
+
+</script>
+
+
+
+
+
+<div class="clearfix"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--footer-->
+<footer>
+    <div class="containerr-fluid">
+        
+        <div class="footer-top">
+        
+            <div class="col-md-2 footer-head">
+        
+                <h4>Company</h4>
+                <ul class="nav-bottom">
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="support.html">Support</a></li>
+                    <li><a href="sitemap.html">Sitemap</a></li>
+                    <li><a href="terms.html">Terms & Conditions</a></li>
+                    <li><a href="faq.html">Faq</a></li> 
+                    <li><a href="#mobileappagileits" class="scroll">Mobile</a></li> 
+                    <li><a href="feedback.html">Feedback</a></li>   
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="shortcodes.html">Shortcodes</a></li>
+                    <li><a href="icons.html">Icons Page</a></li>
+                    
+                </ul>   
+            </div>
+        
+            <div class="col-md-3 footer-head">
+                <h4>Mobile Recharges</h4>
+                    <ul class="nav-bottom">
+                        <li><a href="#">Airtel</a></li>
+                        <li><a href="#">Aircel</a></li>
+                        <li><a href="#">Vodafone</a></li>
+                        <li><a href="#">BSNL</a></li>
+                        <li><a href="#">Tata Docomo</a></li>
+                        <li><a href="#">Reliance GSM</a></li>   
+                        <li><a href="#">Reliance CDMA</a></li>  
+                        <li><a href="#">Telenor</a></li>    
+                        <li><a href="#">MTS</a></li>    
+                        <li><a href="#">Jio</a></li>    
+                    </ul>   
+            </div>
+
+            <div class="col-md-3 footer-head">
+                <h4>DATACARD RECHARGES</h4>
+                   <ul class="nav-bottom">
+                        <li><a href="#">Tata Photon</a></li>
+                        <li><a href="#">MTS MBlaze</a></li>
+                        <li><a href="#">MTS MBrowse</a></li>
+                        <li><a href="#">Airtel</a></li>
+                        <li><a href="#">Aircel</a></li>
+                        <li><a href="#">BSNL</a></li>   
+                        <li><a href="#">MTNL Delhi</a></li> 
+                        <li><a href="#">Vodafone</a></li>   
+                        <li><a href="#">Idea</a></li>   
+                        <li><a href="#">MTNL Mumbai</a></li>
+                        <li><a href="#">Tata Photon Whiz</a></li>   
+                    </ul>   
+            </div>
+        
+            <div class="col-md-2 footer-head">
+                <h4>DTH Recharges</h4>
+                <ul class="nav-bottom">
+                        <li><a href="#">Airtel Digital TV Recharges</a></li>
+                        <li><a href="#">Dish TV Recharges</a></li>
+                        <li><a href="#">Tata Sky Recharges</a></li>
+                        <li><a href="#">Reliance Digital TV Recharges</a></li>
+                        <li><a href="#">Sun Direct Recharges</a></li>
+                        <li><a href="#">Videocon D2H Recharges</a></li> 
+                    </ul>   
+            </div>
+        
+            <div class="col-md-2 footer-head">
+                <h4>Payment Options</h4>
+                   <ul class="nav-bottom">
+                        <li>Credit Cards</li>
+                        <li>Debit Cards</li>
+                        <li>Any Visa Debit Card (VBV)</li>
+                        <li>Direct Bank Debits</li>
+                        <li>Cash Cards</li> 
+                    </ul>   
+        
+            </div>
+        <div class="clearfix"> </div>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <div class="containerr-fluid">
+    
+            <div class="col-md-8 rights">
+                <p>© 2019 PROPAY . All Rights Reserved | Design by <h1 class="credit"> <span class="credit_goes" Rohit </h1> </p>
+            </div>
+    
+            <div class="clearfix"> </div>
+    
+        </div>
+    </div>
+</footer>
+<!-- Footer -->
+
+
+
+
+</body>
+</html>

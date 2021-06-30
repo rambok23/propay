@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="EN">
+
+	<head>
+
+		<title> ProPay.com – Simpler. Faster. Friendlier </title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- TAB LOGO LINK-->
+		<link rel="shortcut icon" href="image/logo.ico" type="image/png">
+
+		<!-- CSS Link -->
+		<link rel="stylesheet" type="text/css" href="./css/temp.css">
+
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+		<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+
+				<!-- Latest compiled and minified CSS -->
+		
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+				<!-- jQuery library -->
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+				<!-- Popper JS -->
+	
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+				<!-- Latest compiled JavaScript -->
+			
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+		
+				<!-- Fonts -->
+
+		<link href="css/font-awesome.css" rel="stylesheet" type="text/css" media="all" />
+
+	</head>
+
+<body>
+
+	<div class="too">
+
+		<div class="topbar">.</div>
+			<a href="recharge.php"> <img src="image/logo.png" alt="ProPay"> </a>
+			<div class="linkwall">
+				<ul>
+						<li data-toggle="modal" data-target="#myModal"> <a class="alin" href="#" title="Login"> <i class="fas fa-globe"></i> Login </a></li>
+						<li data-toggle="modal" data-target="#myModal1"> <a class="alin" href="#" title="Signup"> <i class="fas fa-user-graduate"></i> Signup </a></li>
+		
+			<!-- SIGN UP MODAL -->
+					<div class="modal fade" id="myModal1" role="dialog">
+						<div class="modal-dialog">
+						
+						<div class="modal-content">
+				
+							<div class="modal-header">
+								<h4 class="modal-title"> SIGN-UP </h4>
+								<button type="button" class="close" data-dismiss="modal">&times;</button>
+							</div>
+
+							<div class="modal-body">
+								<div class="content login-box">
+									<div class="login-main">
+										<div class="wrap">
+											<div class="login-left">
+												<h3> CREATE AN ACCOUNT</h3>
+
+												<form id="signupform" action="sign.php" method="post">
+
+												<div>
+													<span>Name<label>*</label></span>
+													<input type="text" name="name">
+												</div>
+
+												<div>
+													<span>Email Address<label>*</label></span>
+													<input type="Email" name="email">
+												</div>
+				
+												<div>
+													<span>Password<label>*</label></span>
+													<input type="Password" name="password"> 
+												</div>
+
+												<div class="clearfix"> </div>
+
+													<input type="submit" value="Signup" name="submit1" id="submit1">
+												</div>
+
+												</form>
+
+												<div>
+													<div class="clearfix"> </div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						</div> <!-- Signup -->
+		<!-- LOGIN MODAL -->
+				
+					<div class="modal fade" id="myModal" role="dialog">
+						<div class="modal-dialog">
+						
+						<div class="modal-content">
+				
+							<div class="modal-header">
+								<h4 class="modal-title"> LOG IN </h4>
+								<button type="button" class="close" data-dismiss="modal">&times;</button>
+							</div>
+
+							<div class="modal-body">
+								<div class="content login-box">
+									<div class="login-main">
+										<div class="wrap">
+											<div class="login-left">
+												<h3> REGISTERED CUSTOMERS</h3>
+												<p>If you have an account with us, please log in.</p>
+
+												<form id="myform" action="info.php" method="post">
+
+												<div>
+													<span>Email Address<label>*</label></span>
+													<input type="Email" name="mail" class="form-control">
+												</div>
+				
+												<div>
+													<span >Password<label>*</label></span>
+													<input type="Password" name="pass" class="form-control"> 
+												</div>
+
+												<div class="clear"> </div>
+													<a href="#">Forgot Your Password?</a>
+													<input id="submit" name="submit" type="submit" value="Login">
+												</div>
+
+												</form>
+
+												<div>
+													<div class="clear"> </div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						</div>
+					</div>  <!-- LOGIN -->
+
+				</ul>
+
+			</div>
+		</div>
+
+			<div class="top_search">
+				<input type="text" placeholder="Search for a Product, Brand Or Category">
+				<button> <i class='fas fa-search'></i> </button>
+			</div>
+		
+		<div class="clearfix"></div>	
+		
+		<div class="topbar" style="margin-top: 1em;">.</div>
+		</div>
+<!--	<nav>
+
+			<a class="hvr-shutter-in-vertical" href="recharge.html" title="Recharge"><i class="fas fa-mobile-alt"></i> RECHARGE </a>
+			<a class="hvr-shutter-in-vertical" href="shopping.html" title="Shopping"><i class="fas fa-shopping-cart"></i> SHOPPING </a>
+			<a class="hvr-shutter-in-vertical" href="bus.html" title="Book Bus Tickets"><i class="fas fa-bus"></i> BUS </a>
+			<a class="hvr-shutter-in-vertical" href="train.html" title="Book Train Tickets"><i class="fas fa-train"></i> TRAIN </a>
+			<a class="hvr-shutter-in-vertical" href="flights.html" title="Book Flights"><i class="fas fa-plane"></i> FLIGHTS </a>
+			<a class="hvr-shutter-in-vertical" href="movies.html" title="Book Movie Tickets"><i class="fas fa-bullhorn"></i> MOVIES </a>
+	</nav> -->
+
+	<div class="clearfix"></div>
+
+	<div class="contain">
+
+		<div class="left-sidebar">
+		
+			<div class="w3layouts-breadcrumbs text-center">
+				<div class="containerr" style="margin-top: 1em;">
+					<span class="agile-breadcrumbs"><a href="recharge.php"><i class="fa fa-home home_1"></i></a> / <a class="mob" href="datacard.html"> Datacard </a> <span></span></span>
+				</div>
+			</div>
+
+
+			<section>
+					<h1> ProPay <span class="text-red"> Recharge </span> </h1>
+			</section>
+		</div>
+
+		<div class="right-sidebar">
+
+			<div class="temp">
+
+				<div class="temp2">
+					<img src="image/usb.png">
+				</div>
+				
+				<div class="temp3">
+					<p> Let's Get <br> Your Recharge Done!</p>
+				</div>
+				<br> <br>
+					<form>
+
+						<ul>
+							<div class="form-group">
+								<li>
+									<div class="col-4"> 
+    									<label>Select Operator</label>
+		 							 	<select class="form-control" id="exampleFormControlSelect1">
+									 		<option>Airtel</option>
+											<option>Aircel</option>
+											<option>BSNL</option>
+											<option>GTPL Broadband</option>
+											<option>Idea</option>
+											<option>Jio Fiber</option>
+											<option>MTS</option>
+											<option>Tata Docomo</option>
+											<option>Vodafone</option>
+										</select> <br>
+						 			</div>
+								</li> 
+					
+								<div class="col-7">
+									<li>
+										<input class="text" type="digit" placeholder="Enter Your Data-Card Number" required="required" maxlength="10" minlength="10"> 
+									</li>	<br> <br>
+								</div>
+
+								<div class="col-5">
+								<li>
+									<span class="fas fa-rupee"></span>
+									<input class="text" type="digit" placeholder="Enter Amount" id="numb" required="" maxlength="4" minlength="2"> 
+								</li> <br>
+								</div>
+
+								<li>
+									<div class="col-2">
+										<a href="pay.html">
+										<button type="button" class="pro-button">Proceed</button>
+										</a>
+									</div>
+								</li>
+				
+							</div>
+						</ul>
+					</form>
+			</div>
+		</div>	
+	</div>
+
+	
+<div class="clearfix"> </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--footer-->
+<footer>
+	<div class="containerr-fluid">
+		
+		<div class="footer-top">
+		
+			<div class="col-md-2 footer-head">
+		
+				<h4>Company</h4>
+				<ul class="nav-bottom">
+					<li><a href="#">About Us</a></li>
+					<li><a href="#">Support</a></li>
+					<li><a href="#">Sitemap</a></li>
+					<li><a href="#">Terms & Conditions</a></li>
+					<li><a href="#">Faq</a></li>	
+					<li><a href="#">Mobile</a></li>	
+					<li><a href="#">Feedback</a></li>	
+					<li><a href="">Contact</a></li>
+					<li><a href="">Shortcodes</a></li>
+					<li><a href="">Icons Page</a></li>
+					
+				</ul>	
+			</div>
+		
+			<div class="col-md-3 footer-head">
+				<h4>Mobile Recharges</h4>
+					<ul class="nav-bottom">
+						<li><a href="mobile.html">Airtel</a></li>
+						<li><a href="mobile.html">Aircel</a></li>
+						<li><a href="mobile.html">Vodafone</a></li>
+						<li><a href="mobile.html">BSNL</a></li>
+						<li><a href="mobile.html">Tata Docomo</a></li>
+						<li><a href="mobile.html">Reliance GSM</a></li>	
+						<li><a href="mobile.html">Reliance CDMA</a></li>	
+						<li><a href="mobile.html">Telenor</a></li>	
+						<li><a href="mobile.html">MTS</a></li>	
+						<li><a href="mobile.html">Jio</a></li>	
+					</ul>	
+			</div>
+
+			<div class="col-md-3 footer-head">
+				<h4>DATACARD RECHARGES</h4>
+				   <ul class="nav-bottom">
+						<li><a href="datacard.html">Tata Photon</a></li>
+						<li><a href="datacard.html">MTS MBlaze</a></li>
+						<li><a href="datacard.html">MTS MBrowse</a></li>
+						<li><a href="datacard.html">Airtel</a></li>
+						<li><a href="datacard.html">Aircel</a></li>
+						<li><a href="datacard.html">BSNL</a></li>	
+						<li><a href="datacard.html">MTNL Delhi</a></li>	
+						<li><a href="datacard.html">Vodafone</a></li>	
+						<li><a href="datacard.html">Idea</a></li>	
+						<li><a href="datacard.html">MTNL Mumbai</a></li>
+						<li><a href="datacard.html">Tata Photon Whiz</a></li>	
+					</ul>	
+			</div>
+		
+			<div class="col-md-2 footer-head">
+				<h4>DTH Recharges</h4>
+				<ul class="nav-bottom">
+						<li><a href="dth.html">Airtel Digital TV Recharges</a></li>
+						<li><a href="dth.html">Dish TV Recharges</a></li>
+						<li><a href="dth.html">Tata Sky Recharges</a></li>
+						<li><a href="dth.html">Reliance Digital TV Recharges</a></li>
+						<li><a href="dth.html">Sun Direct Recharges</a></li>
+						<li><a href="dth.html">Videocon D2H Recharges</a></li>	
+					</ul>	
+			</div>
+        
+            <div class="col-md-2 footer-head">
+				<h4>Payment Options</h4>
+				   <ul class="nav-bottom">
+						<li>Credit Cards</li>
+						<li>Debit Cards</li>
+						<li>Any Visa Debit Card (VBV)</li>
+						<li>Direct Bank Debits</li>
+						<li>Cash Cards</li>	
+					</ul>	
+		
+			</div>
+		<div class="clearfix"> </div>
+		</div>
+    </div>
+
+	<div class="footer-bottom">
+		<div class="containerr-fluid">
+	
+			<div class="col-md-8 rights">
+				<p>© 2019 PROPAY . All Rights Reserved | Design by <h1 class="credit"> <span class="credit_goes" Rohit </h1> </p>
+			</div>
+	
+			<div class="clearfix"> </div>
+	
+	 	</div>
+	</div>
+</footer>
+<!-- Footer -->
+
+</body>
+</html>
